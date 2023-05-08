@@ -1,3 +1,6 @@
+from collections import defaultdict
+
+
 class Solution:
     def profitableSchemes(self, n: int, minProfit: int, group: List[int], profit: List[int]):
         mod = 10**9 + 7  # really large prime number
